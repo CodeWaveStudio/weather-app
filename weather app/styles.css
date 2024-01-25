@@ -1,0 +1,132 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(135deg,#19acf6,#1df6d2);
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    width: 380px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.search-img{
+    width: 50px;
+    height: 50px;
+    background-color: azure;
+    border-radius: 50%;
+}
+.search-img img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 15% auto;
+}
+.error{
+    display: none;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 18px;
+    color: red;
+}
+.weather{
+
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.icon-img{
+    width: 150px;
+    height: 150px;
+}
+.weather h1,.weather h2{
+    font-size: 24px;
+    color: #fff;
+    
+}
+.weather-sub{
+    display: flex;
+    justify-content: space-between;
+    gap: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.humidity{
+    display: flex;
+    gap: 10px;
+    
+}
+.humidity img{
+    width: 30px;
+    height: 30px;
+}
+.humidity-txt{
+    display: flex;
+    flex-direction: column;
+    
+}
+.humidity-txt h1{
+    color: #fff;
+    font-size: 18px;
+   
+    margin-top: -10px;
+}
+.humidity-txt h2{
+    color: #fff;
+    font-size: 18px;
+    justify-content: center;
+    align-items:center ;
+    margin-top: -10px;
+}
+.wind{
+    display: flex;
+    gap: 10px;
+    
+}
+.wind img{
+    width: 30px;
+    height: 30px;
+}
+.wind-txt{
+    display: flex;
+    flex-direction: column;
+    
+}
+.wind-txt h1{
+    color: #fff;
+    font-size: 18px;
+   
+    margin-top: -10px;
+}
+.wind-txt h2{
+    color: #fff;
+    font-size: 18px;
+    justify-content: center;
+    align-items:center ;
+    margin-top: -10px;
+}
